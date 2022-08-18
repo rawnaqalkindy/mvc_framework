@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} /([^\s?]*) [NC]
+RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+
+Options -Indexes
+DirectoryIndex index.php index.html index.htm

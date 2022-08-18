@@ -7,11 +7,11 @@ class BaseView {
     {
         $file = ROOT_PATH.'/App/Views/'.$template.'.php';
         if (file_exists($file)){
-             echo 'File exists';
+           //  echo 'File exists';
             require_once $file;
         } else {
           //  print_r($file);
-            echo 'File does not exist';
+          echo 'File does not exist';
         }
         
     }
