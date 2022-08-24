@@ -10,7 +10,7 @@ use Raunaq\App;
 
 const DS = '/';
 
-define('ROOT_PATH', realpath(dirname(__FILE__, 1)));
+define('ROOT_PATH', realpath(dirname(__FILE__, 2)));
 
 // echo ROOT_PATH;
 // exit; 
